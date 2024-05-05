@@ -1,4 +1,4 @@
-package com.enwai.cryptocurrencyapp
+package com.enwai.cryptocurrencyapp.presentation.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.enwai.cryptocurrencyapp.ui.theme.CryptocurrencyAppTheme
+import com.enwai.cryptocurrencyapp.presentation.ui.theme.CryptocurrencyAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

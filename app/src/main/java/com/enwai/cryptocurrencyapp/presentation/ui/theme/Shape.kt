@@ -1,4 +1,4 @@
-package com.enwai.cryptocurrencyapp.ui.theme
+package com.enwai.cryptocurrencyapp.presentation.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Shapes
