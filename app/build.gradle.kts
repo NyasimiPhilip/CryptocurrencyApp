@@ -44,13 +44,19 @@ android {
     }
     packaging {
         resources {
-            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            excludes += "/META-INF/gradle/incremental.annotation.processors"
         }
     }
 }
 
 dependencies {
 
+    implementation(libs.hiltNavigation )
+    implementation(libs.hiltCompiler)
+    implementation (libs.gson)
+    implementation(libs.navigation)
+    implementation(libs.hilt)
+    implementation (libs.retrofit)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
